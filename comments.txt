@@ -1,0 +1,31 @@
+Extensão do arquivo Sass: 
+scss.
+
+Criando:
+Entrar na pasta CSS, ir no terminal e colocar sass + nome do arquivo scss + : + nome do arquivo .css.
+
+Compilar o arquivo:
+sass + nome do arquivo scss + : + nome do arquivo .css.
+Exemplo: sass estilos.scss:estios.css
+
+Observador do compilador:
+(Sempre dentro da pasta css)
+sass --watch + nome do arquivo .scss + : + nome do arquivo .css
+Exemplo: sass --watch estilos.scss:estilos.css
+
+Mixin:
+Serve para colocarmos vários estilos que são utilizados em vários lugares. 
+
+@mixin + nome da variável {
+
+}
+
+Para incluir ela no css:
+@include + nome da variável.
+
+Colocando parâmetro default:
+Na criação de um mixin, é possível colocar um valor default. 
+Exemplo: @mixin borda($raio: 10px){
+  border-radius: $raio.
+}
+*Caso algum elemento não seja 10px, é só atribui-la nos parentêses borda(50px)
