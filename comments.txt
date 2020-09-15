@@ -43,3 +43,9 @@ Agrupa todos os elementos que possuem as mesmas características. *Não é poss�
 Uso: 
 % + nome (%image)
 @extend % + nome (@extend %image)
+
+- Colocando valor de media querie em variável
+$ nome da variável: "(max-width: 980px)"
+*Precisa ser uma string para ser lida
+  - Para utilizar é necessário concatenar: 
+  @media #{$nome da variavel} 
