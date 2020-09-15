@@ -29,3 +29,10 @@ Exemplo: @mixin borda($raio: 10px){
   border-radius: $raio.
 }
 *Caso algum elemento não seja 10px, é só atribui-la nos parentêses borda(50px)
+
+Importando arquivos:
+@import 'caminho/nome do arquivo'
+
+Deixando uma cor mais escura ou clara:
+darken(cor, quanto mais escuro)
+lighten(cor, quanto mais claro)
