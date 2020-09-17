@@ -73,3 +73,13 @@ Acrescentar antes da importação do sprite, $sprite-spacing: (valor).
 
 - Para que o nome do sprite seja adicionado quando for modificado: 
 @include all + nome da pasta + sprites.
+
+- Criação de funções: 
+@function + nome da função(parâmetro se houver) {
+  operação.
+}
+
+*Utilizando: nome da função + ()
+
+- Arrendondando valores: 
+Utilizar o round na frente round(fórmula)
