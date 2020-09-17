@@ -49,3 +49,27 @@ $ nome da variável: "(max-width: 980px)"
 *Precisa ser uma string para ser lida
   - Para utilizar é necessário concatenar: 
   @media #{$nome da variavel} 
+
+- Criando o compass:
+compass create
+(Arquivo config.rb do compass, alterar o caminho do css e sass caso sejam diferentes.)
+
+- Observador do compass:
+compass watch "nome do arquivo .scss" (colocar o caminho da pasta na frente, caso seja diferente. Ex: css/estilos.scss)
+
+- Tirando comentários do compass:
+Entrar no arquivo config.rb, descomentar a linha "line_comments = false", e compilar novamente.
+
+- Utilizando compass: 
+@include 'compass/css3' (Importar outros compass dependendo do estilo)
+(Depois utilizar a estilização do compass)
+
+- Criando sprites (juntar imagens):
+Colocar dentro de imagens uma pasta chamada sprites as imagens para serem juntadas. E depois fazer o import. 
+@import "sprite/*.png" (tudo o que for png será juntado.)
+
+- Colocando espaçamento nas sprites:
+Acrescentar antes da importação do sprite, $sprite-spacing: (valor).
+
+- Para que o nome do sprite seja adicionado quando for modificado: 
+@include all + nome da pasta + sprites.
