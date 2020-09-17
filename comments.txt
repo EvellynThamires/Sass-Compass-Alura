@@ -83,3 +83,7 @@ Acrescentar antes da importação do sprite, $sprite-spacing: (valor).
 
 - Arrendondando valores: 
 Utilizar o round na frente round(fórmula)
+
+Placeholder: Utilizar quando são códigos repetidos.
+Mixins: Utilizar quando é necessário um valor default.
+Functions: Utilizar quando for necessário realizar uma conta.
